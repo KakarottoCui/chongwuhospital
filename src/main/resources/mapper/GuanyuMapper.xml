@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.GuanyuMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Guanyu">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="biaoti" property="biaoti" jdbcType="VARCHAR"/>
+                                    <result column="neirong" property="neirong" jdbcType="VARCHAR"/>
+                                                <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+            </resultMap>
+    <sql id="Base_Column_List">
+        id, biaoti, neirong, addtime    </sql>
+    </mapper>

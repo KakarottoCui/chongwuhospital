@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.DingdanxinxiMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Dingdanxinxi">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="dingdanhao" property="dingdanhao" jdbcType="VARCHAR"/>
+                                    <result column="shangpinxinxi" property="shangpinxinxi" jdbcType="VARCHAR"/>
+                                    <result column="dingdanjine" property="dingdanjine" jdbcType="DECIMAL"/>
+                                    <result column="shouhuoren" property="shouhuoren" jdbcType="VARCHAR"/>
+                                    <result column="lianxifangshi" property="lianxifangshi" jdbcType="VARCHAR"/>
+                                    <result column="shouhuodizhi" property="shouhuodizhi" jdbcType="VARCHAR"/>
+                                    <result column="dingdanzhuangtai" property="dingdanzhuangtai" jdbcType="VARCHAR"/>
+                                    <result column="xiadanren" property="xiadanren" jdbcType="VARCHAR"/>
+                                            <result column="iszf" property="iszf" jdbcType="VARCHAR"/>
+                        <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+            </resultMap>
+    <sql id="Base_Column_List">
+        id, dingdanhao, shangpinxinxi, dingdanjine, shouhuoren, lianxifangshi, shouhuodizhi, dingdanzhuangtai, xiadanren, iszf, addtime    </sql>
+    </mapper>

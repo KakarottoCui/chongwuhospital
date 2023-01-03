@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.PinglunMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Pinglun">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="bianhao" property="bianhao" jdbcType="VARCHAR"/>
+                                    <result column="fuwuxiangmu" property="fuwuxiangmu" jdbcType="VARCHAR"/>
+                                    <result column="yuyueren" property="yuyueren" jdbcType="VARCHAR"/>
+                                    <result column="pingfen" property="pingfen" jdbcType="VARCHAR"/>
+                                    <result column="pinglunneirong" property="pinglunneirong" jdbcType="VARCHAR"/>
+                                                    <result column="fuwuyuyueid" property="fuwuyuyueid" jdbcType="INTEGER"/>
+                <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+            </resultMap>
+    <sql id="Base_Column_List">
+        id, bianhao, fuwuxiangmu, yuyueren, pingfen, pinglunneirong, fuwuyuyueid, addtime    </sql>
+    </mapper>

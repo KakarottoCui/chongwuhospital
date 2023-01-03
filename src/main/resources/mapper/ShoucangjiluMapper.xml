@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.ShoucangjiluMapper" >
+  <resultMap id="BaseResultMap" type="com.spring.entity.Shoucangjilu" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="xwid" property="xwid" jdbcType="INTEGER" />
+    <result column="biao" property="biao" jdbcType="VARCHAR" />
+    <result column="biaoti" property="biaoti" jdbcType="VARCHAR" />
+    <result column="url" property="url" jdbcType="VARCHAR" />
+    <result column="ziduan" property="ziduan" jdbcType="VARCHAR" />
+    <result column="addtime" property="addtime" jdbcType="VARCHAR" />
+
+  </resultMap>
+</mapper>

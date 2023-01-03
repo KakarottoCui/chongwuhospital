@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.YouqinglianjieMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Youqinglianjie">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="wangzhanmingcheng" property="wangzhanmingcheng" jdbcType="VARCHAR"/>
+                                    <result column="wangzhi" property="wangzhi" jdbcType="VARCHAR"/>
+                                                <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+            </resultMap>
+    <sql id="Base_Column_List">
+        id, wangzhanmingcheng, wangzhi, addtime    </sql>
+    </mapper>

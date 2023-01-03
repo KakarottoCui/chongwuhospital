@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.YiliaofuwuMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Yiliaofuwu">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="bianhao" property="bianhao" jdbcType="VARCHAR"/>
+                                    <result column="fuwuxiangmu" property="fuwuxiangmu" jdbcType="VARCHAR"/>
+                                    <result column="tupian" property="tupian" jdbcType="VARCHAR"/>
+                                    <result column="jiage" property="jiage" jdbcType="DECIMAL"/>
+                                    <result column="yiyuyuerenshu" property="yiyuyuerenshu" jdbcType="INTEGER"/>
+                                    <result column="fuwuneirong" property="fuwuneirong" jdbcType="VARCHAR"/>
+                                                <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+            </resultMap>
+    <sql id="Base_Column_List">
+        id, bianhao, fuwuxiangmu, tupian, jiage, yiyuyuerenshu, fuwuneirong, addtime    </sql>
+    </mapper>
