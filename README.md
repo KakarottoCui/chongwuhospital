@@ -3,7 +3,7 @@
 
 版本1演示视频链接:https://live.csdn.net/v/267400
 
-版本2演示视频链接:
+版本2演示视频链接:https://www.bilibili.com/video/BV1WgRJYgEaD/
 
 1.开发环境
 
