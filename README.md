@@ -1,7 +1,7 @@
 # chongwuhospital
 基于Java，SpringBoot和Vue的宠物医院诊所管理系统
 
-版本1演示视频链接:https://live.csdn.net/v/267400
+版本1演示视频链接:https://www.bilibili.com/video/BV1RH4y1a7Ep/
 
 版本2演示视频链接:https://www.bilibili.com/video/BV1WgRJYgEaD/
 
